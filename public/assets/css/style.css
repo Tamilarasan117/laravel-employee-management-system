@@ -1,0 +1,177 @@
+/* common */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.app-container {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  /*background-image: linear-gradient(160deg, #ff86f955,rgba(148, 219, 255, 0.533));*/
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../images/business.jpg');
+  padding-top: 20px;
+}
+/* index */
+.main-container {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.index-table-container {
+  background: #fff;
+  padding: 15px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.index-table-head-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.index-table-head {
+  font-size: 24px;
+  font-weight: bold;
+}
+.index-create-btn {
+  height: 40px;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(0, 153, 255);
+  outline: none;
+  cursor: pointer;
+  border: 0;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #fff;
+}
+.index-emp-table {
+  border-collapse: collapse;
+  margin-bottom: 15px;
+  min-width: 1000px;
+}
+.index-emp-table,th,td {
+  border: 1px solid;
+  padding: 10px;
+  text-align: center;
+}
+.index-emp-table th {
+  background-color: rgb(209, 209, 209);
+}
+.index-table-active {
+  color: green;
+  font-weight: 600;
+}
+.index-table-unactive {
+  color: red;
+  font-weight: 600;
+}
+.index-table-action-but-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.index-action-but {
+  height: 40px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+  cursor: pointer;
+  border: 0;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #fff;
+}
+.index-show-but {
+  background-color: rgb(0, 145, 31);
+}
+.index-edit-but {
+  background-color: rgb(255, 123, 0);
+}
+.index-delete-but {
+  background-color: rgb(255, 0, 0);
+}
+/* create */
+.create-form-go-back-btn {
+  height: 40px;
+  width: 100px;
+  background: rgb(0, 153, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  outline: none;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 4px;
+}
+.form-container {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 4px;
+  min-width: 500px;
+}
+.form-head {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-align: center;
+}
+.inputbox {
+  margin-bottom: 12px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.isactive-card {
+  display: flex;
+}
+.isactive-card input {
+  display: flex;
+  margin-right: 6px;
+}
+.form-input-field {
+  border-radius: 3px !important;
+}
+.form-input-field:focus {
+  box-shadow: none !important;
+}
+.form-but-card {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.form-submit-btn {
+  height: 40px;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: green;
+  outline: none;
+  cursor: pointer;
+  border: 0;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #fff;
+}
+.show-btn {
+  margin-top: 15px;
+}
+.edit-but-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
